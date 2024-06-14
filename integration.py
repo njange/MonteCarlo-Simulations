@@ -13,3 +13,5 @@ def monte_carlo_pi(num_samples):
         
 #Estimate pi using 1,000,000 samples
 
+pi_estimate = monte_carlo_pi(1000000)
+print(f"Estimated value of pi:{pi_estimate}")
